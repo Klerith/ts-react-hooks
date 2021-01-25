@@ -1,9 +1,10 @@
 
 
 import { Counter } from './components/Counter';
+import { Usuario } from './components/Usuario';
 
 import { TimerPadre } from './components/TimerPadre';
-import { Usuario } from './components/Usuario';
+
 
 function App() {
   return (
@@ -11,14 +12,16 @@ function App() {
       <h1>React + TypeScript</h1>
       <hr/>
 
-      <h2>useState:</h2>
+      <h2>useState</h2>
       <Counter />
 
       <Usuario />
 
+      <h2>useEffect - useRef</h2>
       <hr/>
-      <h2>useEffect:</h2>
+
       <TimerPadre />
+
 
 
     </>

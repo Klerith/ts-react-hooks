@@ -12,7 +12,7 @@ export const Counter = () => {
 
     return (
         <>
-            <h3>Counter: useState</h3>
+            <h3>Counter:</h3>
             <span>Valor: { counter } </span>
             <br/>
             <button
