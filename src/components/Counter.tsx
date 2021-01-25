@@ -11,7 +11,7 @@ export const Counter = () => {
 
 
     return (
-        <div className="mt-5">
+        <>
             <h3>Counter: useState</h3>
             <span>Valor: { counter } </span>
             <br/>
@@ -32,6 +32,6 @@ export const Counter = () => {
                 className="btn btn-outline-danger mt-2">
                 Reset
             </button>
-        </div>
+        </>
     )
 }
